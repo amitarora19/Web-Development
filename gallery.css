@@ -1,0 +1,140 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.ghead{
+  background-color: rgba(1,1,1,0.2 );
+  padding-bottom: 30px;
+  text-align: center;
+  font-size: 40px;
+}
+
+div.gallery a img:hover{
+  border:1px solid black;
+  border-width: thick;
+}
+*{
+  box-sizing: border-box;
+}
+
+.gallery{
+  float: left;
+  width:33.332%;
+  padding: 10px;
+}
+@media only screen and (max-width:780px){
+  .gallery{
+    width:49%;
+    margin: 6px 0px;
+  }
+
+}
+@media only screen and (max-width:500px){
+  .gallery{
+    width:100%;
+  }
+
+}
+
+*{
+  margin: 0px;
+  padding:0px;
+}
+
+
+
+ul{
+  list-style-type: none;
+  float: right;
+margin-top: 50px;
+}
+
+
+
+ul li{
+  display: inline-block;
+
+  }
+
+
+  ul li a{
+    border: 1px solid black transparent;
+    border-radius: 20px;
+     background-color: rgba(0,0,0,0.5);
+    transition: 0.5s ease;
+    text-decoration: none;
+    color: white;
+    padding: 5px 8px;
+    font-size:20px;
+
+
+  }
+  ul li a:hover{
+    background-color: white;
+    color: black;
+  }
+
+.main{
+  max-width: 90%
+  margin:auto;
+}
+
+  nav .main .menu {;
+    position: fixed;
+    float: right;
+    margin-left: 1100px;
+
+  }
+
+
+
+  .submenu{
+    display:none;
+}
+  .menu ul li:hover .submenu{
+    display:block;
+    position: absolute;
+    padding: 5px;
+    margin-right:20px;
+
+
+
+  }
+  .menu ul li:hover .submenu ul a {
+    display: block;
+    margin: 10px;
+    padding: -20px;
+
+  }
+  .menu ul li:hover .submenu ul li{
+    background-color: rgba(0,0,0,0);
+    display: block;
+    margin-left:-10px;
+
+    }
+
+  .Simg{
+    padding-top: 150px;
+  }
+  .ser{
+    background-color: rgba(0, 0, 0);
+  }
+  .para{
+    color: white;
+    font-family: cursive;
+    padding-left: 350px;
+    padding-top: 30px;
+
+  }
+  #web header{
+position:absolute;
+float: left;
+
+  }
+  .contact{
+    padding-top: 30px;
+    padding-bottom: 40px;
+    color: white;
+    font-size: 20px;
+    font-family:cursive;
+  }

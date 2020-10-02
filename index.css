@@ -1,0 +1,103 @@
+
+
+*{
+  margin: 0px;
+  padding:0px;
+}
+
+
+body {
+  background-image:linear-gradient(rgba(0, 0, 0, 1),rgba(0, 0, 0, 0)),url(img/back.jpg);
+  background-size: cover ;
+height: 100vh;
+background-position: center;
+}
+
+ul{
+  list-style-type: none;
+  float: right;
+margin-top: 50px;
+}
+
+
+
+ul li{
+  display: inline-block;
+
+  }
+
+
+  ul li a{
+    border: 1px solid black transparent;
+    border-radius: 20px;
+
+    transition: 0.5s ease;
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    font-size:20px;
+
+
+  }
+  ul li a:hover{
+    background-color: white;
+    color: black;
+  }
+
+.main{
+  max-width: 90%
+  margin:auto;
+}
+  .Logo1 img{
+    width: 150px;
+    height: auto;
+    float: left;
+    position:fixed;
+  }
+  .Logo1 img:hover{
+    transition: 0.5s ease;
+    background-color: rgba(0,0,0,0.5);
+  }
+  nav .main .menu {;
+    position: fixed;
+    float: right;
+    margin-left: 1100px;
+
+  }
+  .title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+  }
+
+  .title h1{
+color: #ffff;
+font-size: 100px;
+  }
+
+  .submenu{
+    display:none;
+}
+  .menu ul li:hover .submenu{
+    display:block;
+    position: absolute;
+    padding: 5px;
+    margin-right:20px;
+
+
+
+  }
+  .menu ul li:hover .submenu ul a {
+    display: block;
+    margin: 10px;
+    padding: -15px;
+
+  }
+  .menu ul li:hover .submenu ul li{
+    background-color: rgba(0,0,0,0);
+    display: block;
+
+    margin-left:-10px;
+    }
